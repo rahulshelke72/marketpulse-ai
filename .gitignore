@@ -1,4 +1,15 @@
-# Environment variables
+# Credentials and Environment
 .env
 .env.*
-!.env.example
+
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.pyc
+
+# DuckDB local storage
+*.duckdb
+*.duckdb.wal
+data/*.duckdb
+
+.idea/
